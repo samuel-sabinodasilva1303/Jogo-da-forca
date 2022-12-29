@@ -1,0 +1,26 @@
+Jogo da Forca
+
+Para iniciar o jogo utilize os seguintes comandos no terminal:
+npm install -> para a utilização dos pacodes do node modules
+npm start -> para iniciar a aplicação localmente
+
+O jogo consiste na escolha de letras para a formação de palavras, onde é limitado a quantidade de erros fazendo com que o jogador
+perca ao atingir o limite, além de uma pontuação especifica para cada palavra encontrada, podendo ser cumulativa com os acertos.
+
+No arquivo App.css foi criada a lógica de visualização da aplicação, ou seja, todos os itens foram direcionados para o centro da
+aplicação, e no arquivo index.css foram aplicados os estilos globais, como cor da página, fonte e especificações do botão, que optei
+por padroniza-lo, ou seja, o mesmo CSS é aplicado em todos os botões da aplicação.
+
+A pasta components é onde fica a lógica do jogo, com todas as funções para o funcionamento do mesmo.
+
+Ainda sobre a pasta components foi criada a seguinte lógica onde iniciamos o jogos através do arquivo StartScreen.js passando para o arquivo
+Game.js e indo até o último arquivo GameOver.js, esse percurso é feito com constantes criadas dentro de App.js e que dão direcionamentos
+em seus respectivos arquivos através de props, basicamente são funções que tem indices e os manipulam para fazer o direcionamento através das páginas.
+
+********O arquivo App.js é quem controla todo o projeto******
+
+
+Nesse projeto foram ustilizados os seguintes hooks useEffect, useState, useCalback e useRef, os 3 primeiros no arquivo App.js e o último no arquivo Game.js
+para implementar a lógica do jogo.
+
+****A aplicação não conta com roteamento, ou seja, não foi utilizado o react router, somente o direciomento direto*********

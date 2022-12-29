@@ -1,0 +1,11 @@
+.start h1{
+  margin-top: 40px;
+  font-family: 'Tangerine', serif;
+  font-size: 60px;
+  text-shadow: 4px 4px 4px rgb(59, 58, 58);
+}
+
+.start p {
+  margin-bottom: 2em;
+  color: rgb(247, 0, 0);
+}
